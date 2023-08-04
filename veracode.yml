@@ -8,6 +8,7 @@ veracode_sast_pipeline_scan:
     # Entering both will only execute branches_to_run
     # Leaving them both blank means this will never run
     branches_to_run:
+    - '*'
     branches_to_exclude:
       - default_branch
   pull_request:
